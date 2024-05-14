@@ -21,7 +21,6 @@ export class AppComponent {
         anh: 'demo.jpg',
         diemTB: 9.0,
     }
-
 }
 
 // Angular 17

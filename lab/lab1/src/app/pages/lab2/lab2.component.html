@@ -1,0 +1,13 @@
+
+<div class="container mb-5">
+    <p>{{title}}</p>
+    <button class="btn btn-success mr-2" (click)="open()">Open</button>
+    <button class="btn btn-secondary" (click)="close()">Close</button>
+    <div *ngIf="isCheck">
+        <app-lab3></app-lab3>
+        <ul *ngFor="let obj of arrStudent">
+            <li>{{obj.name}}</li>
+            <li>{{obj.age}}</li>
+        </ul>
+    </div>
+</div>
